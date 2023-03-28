@@ -30,6 +30,13 @@ const questions = [
     },
 
     {
+        type: 'checkbox',
+        name: 'license',
+        message: 'Please select a license',
+        choices: [],
+    },
+
+    {
         type: 'input',
         name: 'contributionGuidelines',
         message: 'How can others contribute?'
