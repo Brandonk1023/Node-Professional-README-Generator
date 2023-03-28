@@ -29,12 +29,40 @@ const questions = [
         message: 'Please explain how to use the applicaton/project.'
     },
 
+    {
+        type: 'input',
+        name: 'contributionGuidelines',
+        message: 'How can others contribute?'
+    },
+
+    {
+        type: 'input',
+        name: 'testingInsturctions',
+        message: 'How do you test the project?'
+    },
+
+    {
+        type: 'input',
+        name: 'githubUsername',
+        message: 'Please enter your Github username.'
+    },
+
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email address.'
+    },
+
 
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data,{})
+    fs.writeFile(fileName, data, (err) => {
+        if (err)
+        throw err;
+        console.log("Your README file has been generated!")
+    })
 }
 
 // TODO: Create a function to initialize app
