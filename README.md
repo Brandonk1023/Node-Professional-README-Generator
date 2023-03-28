@@ -20,18 +20,15 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+No extra installation steps are needed.  This is a comand line based application.
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use application, open the application in the terminal. The user will be prompted through a series of questions related to the README file that needs to be created.  The information entered in will be filled into the README file for the project.  Once completed the application will generate the project README file for the user.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![alt text](assets/images/screenshot.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
