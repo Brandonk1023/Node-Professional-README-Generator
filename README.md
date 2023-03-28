@@ -35,18 +35,11 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Starter Code REPO URL:
+https://github.com/coding-boot-camp/potential-enigma
 
 
 ## License
 
 MIT License
 
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
