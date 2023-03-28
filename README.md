@@ -35,6 +35,15 @@ To use application, open the application in the terminal by using the following 
 Starter Code REPO URL:
 https://github.com/coding-boot-camp/potential-enigma
 
+Starter Code Contributers:
+
+Xandromus:
+https://github.com/Xandromus
+
+
+gachoi06:
+https://github.com/gachoi06
+
 
 ## License
 
