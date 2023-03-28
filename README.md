@@ -2,12 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The aim of building the project was to create a CLI based application to dynamically create README files for the end user.  This would allow for very easy README generation that could be used for future projects.  This solved the issues of having to manually create one each time it was needed, and allowed for more efficient creation.  Im working on this project I was able to learn more about node.js, inquirer, npm, and building a CLI based application in JavaScript.
 
 
 ## Table of Contents
