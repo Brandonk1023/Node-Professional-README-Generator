@@ -22,7 +22,7 @@ Installation of this application requires that you run npm to install the needed
 
 To use application, open the application in the terminal by using the following command "node index.js". The user will be prompted through a series of questions related to the README file that needs to be created.  The information entered in will be filled into the README file for the project.  Once completed the application will generate the project README file for the user.
 
-![alt text](assets/images/screenshot.png)
+![CLI Interface](screenshots/CLIScreenShot.jpg)
 
 
 ## Credits
