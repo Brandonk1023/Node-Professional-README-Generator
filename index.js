@@ -33,7 +33,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Please select a license',
-        choices: [],
+        choices: ['GNU GPL3', 'GNU LGPL3', 'MIT', 'Apache2', 'BSD3', 'No License'],
     },
 
     {
