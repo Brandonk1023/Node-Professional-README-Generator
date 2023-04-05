@@ -33,7 +33,7 @@ function generateMarkdown(data) {
   # ${data.title}
 
  ## Description
-  ${data.description}
+  ${data.projectDescription}
 
 ## Table of Content
       - [Installation](#installation)
