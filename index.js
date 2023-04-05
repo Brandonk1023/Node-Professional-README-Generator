@@ -30,7 +30,7 @@ const questions = [
     },
 
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Please select a license',
         choices: ['gpl-3.0', 'lgpl-3.0', 'mit', 'apache-2.0', 'No License'],
@@ -44,7 +44,7 @@ const questions = [
 
     {
         type: 'input',
-        name: 'testingInsturctions',
+        name: 'testingInstructions',
         message: 'How do you test the project?'
     },
 
@@ -75,9 +75,9 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(function(userInput) {
-        console.log(userInput)
-        writeToFile("README.md", generateMarkdown(userInput))
+    .then(function(data) {
+        console.log(data)
+        writeToFile("README.md", generateMarkdown(data))
     })
 }
 
