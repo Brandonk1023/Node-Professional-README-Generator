@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'No license') {
-    return `[License](#license)`
+    return `     -[License](#license)`
   } else {
     return ``
   }
@@ -30,7 +30,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}
+  # ${data.projectTitle}
 
  ## Description
   ${data.projectDescription}
